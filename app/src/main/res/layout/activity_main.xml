@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="Sensor Memakai Accelerometer"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/xcoor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="X Coordinate : "
+        android:textAlignment="center"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/ycoor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Y Coordinate : "
+        android:textAlignment="center"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/zcoor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Z Coordinate : "
+        android:textAlignment="center"
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Info !"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Untuk Mengetahui Perubahan Nilai Coordinate Gerakan Smartphone Anda! Jika
+Menggunakan Emulator Pergi ke Sensor Virtual -> Device Pose"
+        android:textAlignment="center"
+        android:textSize="15sp" />
+
+
+</LinearLayout>
